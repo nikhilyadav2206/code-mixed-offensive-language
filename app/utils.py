@@ -8,7 +8,7 @@ from config import (
     INSTAGRAM_ACCESS_TOKEN,
 )
 
-# ✅ Import actual model-based prediction
+
 from predict import smart_predict
 
 # ---------- Safe Database Path Setup ----------
@@ -164,7 +164,7 @@ from config import (
     TWITTER_BEARER_TOKEN,
 )
 
-# ✅ Import actual model-based prediction
+
 from predict import smart_predict
 
 # ---------- Safe Database Path Setup ----------
@@ -278,4 +278,5 @@ def fetch_and_predict_twitter(username: str) -> List[Dict]:
     return results
 
 def delete_twitter_post(post_id: str) -> bool:
-    return True  # Placeholder
+
+    return True  
