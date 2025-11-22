@@ -1,0 +1,12 @@
+transformers
+torch
+pandas
+scikit-learn
+streamlit
+matplotlib
+tqdm
+regex
+fastapi
+uvicorn
+requests
+sentencepiece
