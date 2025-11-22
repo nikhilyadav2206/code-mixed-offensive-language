@@ -50,7 +50,6 @@ def compute_metrics(eval_pred):
     return {"accuracy": acc, "precision": precision, "recall": recall, "f1": f1}
 
 def main():
-    # 🔁 CHANGED: Use XLM-RoBERTa
     model_name = "xlm-roberta-base"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
@@ -108,3 +107,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
