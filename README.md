@@ -72,3 +72,27 @@ The project uses a **transformer-based multilingual model (XLM-R)** to classify 
 ├── train.py                 # Training / fine-tuning script for the model
 ├── requirements.txt         # Python dependencies
 └── README.md                # Documentation
+
+📌 Steps to Execute the Project
+
+Follow these instructions to set up the environment, train a model, and run the Streamlit application.
+1. clone the repository:
+git clone https://github.com/<nikhilyadav2206>/<code-mixed-offensive-language>.git
+cd <code-mixed-offensive-language>
+
+2.Create and Activate a Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+
+3.Install All Requirements
+pip install -r requirements.txt
+
+4.Train the Model
+python train.py
+
+You will see the model is getting trained on the dataset(prefer GPU as CPU takes a lot of time to train on large data set)
+5.Run the Streamlit App
+streamlit run app/app.py
+
+
+
